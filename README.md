@@ -6,11 +6,6 @@ The Versioneer
 * Brian Warner
 * License: Public Domain
 * Compatible With: python2.6, 2.7, 3.2, 3.3, 3.4, 3.5, 3.6, and pypy
-* [![Latest Version]
-(https://pypip.in/version/fdns-versioneer/badge.svg?style=flat)
-](https://pypi.python.org/pypi/fdns-versioneer/)
-=======
-* Compatible with: Python 3.6, 3.7, 3.8, 3.9 and pypy3
 * [![Latest Version][pypi-image]][pypi-url]
 
 This is a tool for managing a recorded version number in distutils-based
@@ -264,7 +259,6 @@ installation by editing setup.py . Alternatively, it might go the other
 direction and include code from all supported VCS systems, reducing the
 number of intermediate scripts.
 
-
 ## License
 
 To make Versioneer easier to embed, all its code is dedicated to the public
@@ -272,7 +266,6 @@ domain. The `_version.py` that it creates is also in the public domain.
 Specifically, both are released under the Creative Commons "Public Domain
 Dedication" license (CC0-1.0), as described in
 https://creativecommons.org/publicdomain/zero/1.0/ .
-=======
 
 [pypi-image]: https://img.shields.io/pypi/v/fdns-versioneer.svg
 [pypi-url]: https://pypi.python.org/pypi/fdns-versioneer/
