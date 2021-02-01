@@ -7,7 +7,6 @@ The Versioneer
 * License: Public Domain
 * Compatible with: Python 3.6, 3.7, 3.8, 3.9 and pypy3
 * [![Latest Version][pypi-image]][pypi-url]
-* [![Build Status][travis-image]][travis-url]
 
 This is a tool for managing a recorded version number in distutils-based
 python projects. The goal is to remove the tedious and error-prone "update
@@ -15,6 +14,10 @@ the embedded version string" step from your release process. Making a new
 release should be as easy as recording a new tag in your version-control
 system, and maybe making new tarballs.
 
+## Modified version
+
+This version was modified to add the pep440-inc style, automatically
+incrementing the minor version
 
 ## Quick Install
 
@@ -260,8 +263,5 @@ Specifically, both are released under the Creative Commons "Public Domain
 Dedication" license (CC0-1.0), as described in
 https://creativecommons.org/publicdomain/zero/1.0/ .
 
-[pypi-image]: https://img.shields.io/pypi/v/versioneer.svg
-[pypi-url]: https://pypi.python.org/pypi/versioneer/
-[travis-image]:
-https://img.shields.io/travis/com/python-versioneer/python-versioneer.svg
-[travis-url]: https://travis-ci.com/github/python-versioneer/python-versioneer
+[pypi-image]: https://img.shields.io/pypi/v/fdns-versioneer.svg
+[pypi-url]: https://pypi.python.org/pypi/fdns-versioneer/

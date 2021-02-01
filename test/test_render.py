@@ -122,6 +122,18 @@ class Test_pep440_pre(unittest.TestCase, Testing_renderer_case_mixin):
                 'error_getting_parts': 'unknown'
                 }
 
+class Test_pep440_inc(unittest.TestCase, Testing_renderer_case_mixin):
+    style = 'pep440-inc'
+    expected = {'tagged_0_commits_clean': 'v1.2.3',
+                'tagged_0_commits_dirty': 'v1.2.3.dirty',
+                'tagged_1_commits_clean': 'v1.2.4',
+                'tagged_1_commits_dirty': 'v1.2.4.dirty',
+                'untagged_0_commits_clean': '0+untagged.0.g',
+                'untagged_0_commits_dirty': '0+untagged.0.g.dirty',
+                'untagged_1_commits_clean': '0+untagged.1.gabc',
+                'untagged_1_commits_dirty': '0+untagged.1.gabc.dirty',
+                'error_getting_parts': 'unknown'
+                }
 
 class Test_git_describe(unittest.TestCase, Testing_renderer_case_mixin):
     style = 'git-describe'
