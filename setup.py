@@ -13,7 +13,7 @@ version-control system about the current tree.
 """
 
 # as nice as it'd be to versioneer ourselves, that sounds messy.
-VERSION = "0.18"
+VERSION = "0.18.1"
 
 
 def ver(s):
@@ -157,13 +157,13 @@ class Distribution(_Distribution):
     def is_pure(self): return True
 
 setup(
-    name = "versioneer",
+    name = "fdns-versioneer",
     license = "public domain",
     version = VERSION,
     description = "Easy VCS-based management of project version strings",
-    author = "Brian Warner",
-    author_email = "warner-versioneer@lothar.com",
-    url = "https://github.com/warner/python-versioneer",
+    author = "Felipe Espinoza",
+    author_email = "github-contact@espinoza.dev",
+    url = "https://github.com/fdns/python-versioneer",
     # "fake" is replaced with versioneer-installer in build_scripts. We need
     # a non-empty list to provoke "setup.py build" into making scripts,
     # otherwise it skips that step.
